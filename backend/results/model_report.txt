@@ -1,0 +1,14 @@
+Sentiment Analysis Report
+=========================
+
+Accuracy: 0.9019
+
+              precision    recall  f1-score   support
+
+    Negative       0.91      0.95      0.93      2225
+     Neutral       0.85      0.96      0.90      2277
+    Positive       0.96      0.79      0.87      2265
+
+    accuracy                           0.90      6767
+   macro avg       0.91      0.90      0.90      6767
+weighted avg       0.91      0.90      0.90      6767
