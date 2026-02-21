@@ -20,7 +20,7 @@ export function SentimentAnalyzer({ onResult }: Props) {
     setError(null)
 
     try {
-      const response = await fetch("https://sentiment-analysis-oh35.onrender.com/predict", {
+      const response = await fetch("https://sentiment-analysis-using-ai.onrender.com/predict", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ text }),
